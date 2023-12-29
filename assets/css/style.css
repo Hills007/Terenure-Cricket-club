@@ -15,7 +15,7 @@ flex-direction: column;
 }
 /*Hearder*/
 header {
-    background-color: #ffffff;
+    background-color: #ADFF2F;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -42,6 +42,8 @@ h1 {
     letter-spacing: 4px;
     list-style-type: none;
     color: rebeccapurple;
+    background-color: #009688;
+
 }
 
 #menu li {
@@ -86,10 +88,21 @@ main {
 }
 
 /*footer*/
-footer {
-    background-color: greenyellow;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #ADFF2F;
 }
 
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: rebeccapurple;
+
+}
 /*Media query for tablets and larger (768px and up)*/
 @media  screen and (min-width: 768px) {
     /*Header*/
