@@ -34,6 +34,21 @@ h1 {
     color: rebeccapurple;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    color: rebeccapurple;
+}
+
+#menu li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid rebeccapurple;
+}
+
 /*main*/
 main {
     background-color: blue;
