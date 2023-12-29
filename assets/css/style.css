@@ -18,6 +18,10 @@ header {
     background-color: aqua;
 }
 
+h1 {
+    font-family: 'Kaushan Script', cursive;
+}
+
 /*main*/
 main {
     background-color: blue;
