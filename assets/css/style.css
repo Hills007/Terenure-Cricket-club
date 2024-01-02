@@ -264,8 +264,8 @@ main {
         top: 90px;
         left: 80px;
         padding: 10px 20px;
-        background-color: #009688;
-        color: #fff;
+        background-color: #ffffff;
+        color: #000000;
         text-decoration: none;
         font-size: 16px;
         border: none;
@@ -294,6 +294,26 @@ main {
 /*Media query for tablets and larger (768px and up)*/
 @media  screen and (min-width: 768px) {
     /*Header*/
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        padding-right: 1rem;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        padding-left: 1.5rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+
     #logo {
         font-size: 280%;
         line-height: 75px;
@@ -330,7 +350,7 @@ main {
         font-size: 40px;
         font-style: italic;
     }
-
+    /*Facilities Section*/
     .facilities-box {
          margin: auto;
         }
@@ -356,8 +376,16 @@ main {
         display: flex;
         }
 
+
+        /*Fixtures and Results section*/
     .fr-box {
         margin: auto;
+    }
+
+    .btn {
+        top: 120px;
+        left: 120px;
+        cursor: pointer;
     }
 
     }
@@ -373,4 +401,10 @@ main {
          #hero {
             height: 190vh;
          }
+    /*Fixtures and Results section*/
+        .btn {
+            top: 250px;
+            left: 250px;
+            cursor: pointer;
+        }
 }
