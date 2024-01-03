@@ -293,6 +293,14 @@ main {
 
 }
 
+/*Media query for larg or landscape phones (576px and up)*/
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 
 /*Media query for tablets and larger (768px and up)*/
 @media  screen and (min-width: 768px) {
@@ -386,6 +394,10 @@ main {
         cursor: pointer;
     }
 
+    /*Gallery */
+    #photos {
+        column-count: 3;
+    }
     }
 
 
@@ -404,5 +416,10 @@ main {
             top: 250px;
             left: 250px;
             cursor: pointer;
+        }
+
+        /*Gallery*/
+        #photos {
+            column-count: 4;
         }
 }
