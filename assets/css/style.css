@@ -301,7 +301,7 @@ main {
 
 .signup {
     font-family: Lato, sans-serif;
-    background-color: #ffffff;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #009698), url("../images/Clubhouse.TCC.jpg") no-repeat center center/cover;
     margin: 5px;
     padding: 0;
     display: flex;
@@ -361,9 +361,7 @@ input {
     background-color: #45a049;
 }
 
-.form-container2 {
-    margin-bottom: 370px;
-}
+
 /*Media query for larg or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
     #photos {
