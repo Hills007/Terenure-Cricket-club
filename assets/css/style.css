@@ -15,7 +15,7 @@ flex-direction: column;
 }
 /*Hearder*/
 header {
-    background-color: #009688;
+    background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -42,12 +42,12 @@ h1 {
     letter-spacing: 4px;
     list-style-type: none;
     color: rebeccapurple;
-    background-color: #009688;
+    background-color: #ffffff;
     right: 0;
     top: 0;
     z-index: 2;
     cursor: pointer;
-
+    font-weight: 600;
 }
 
 #menu li {
@@ -61,7 +61,7 @@ h1 {
 /*Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
-    background-color: #009688;
+    background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -276,6 +276,115 @@ main {
     #photos {
         line-height: 0;
     }
+
+    /*Login page*/
+
+    .login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 60vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), #009698), url(../images/Clubhouse.TCC.jpg) no-repeat center center/cover;
+    }
+
+    .wrapper {
+        width: 210px;
+        background: transparent;
+        color: #ffffff;
+        border-radius: 10px;
+       
+    }
+
+    .wrapper h1 {
+        font-size: 36px;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Lato', sans-serif;
+    }
+     .wrapper .input-box {
+        width: 100%;
+        height: 50px;
+        margin: 30px 0;
+     }
+
+     .input-box input {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid #ffffff;
+        border-radius: 40px;
+        font-size: 16px;
+        color: #ffffff;
+        padding: 20px 45px 20px 20px;
+     }
+
+    
+
+     .input-box input::placeholder {
+        color: #ffffff;
+     }
+
+     .input-box i {
+        position: absolute;
+        right: 20px;
+        top: 50px;
+        transform: translateY(-50%);
+        font-size: 20px;
+     }
+
+    .wrapper .remember-forgot {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        margin: -15px 0 15px;
+    }
+    
+    .remember-forgot label input {
+        accent-color: #ffffff;
+        margin-right: 3px;
+    }
+    
+    .remember-forgot a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    .remember-forgot a:hover {
+        text-decoration: underline;
+    }
+
+    .wrapper .btn-l {
+        width: 100%;
+        height: 45px;
+        background: #ffffff;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        font-size: 16px;
+        color: #009688;
+        font-weight: 600;
+    }
+
+    .wrapper .register-link {
+        font-size: 14px;
+        text-align: center;
+        margin: 20px 0 15px;
+    }
+
+    .register-link p a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    }
+
+    .register-link p a:hover {
+        text-decoration: underline;
+    }
+
     /*footer*/
 #social-networks {
     text-align: center;
@@ -283,7 +392,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #009688;
+    background-color: #ffffff;
 }
 
 #social-networks i {
@@ -398,7 +507,6 @@ main {
     #photos {
         column-count: 3;
     }
-    }
 
 
 /*Media query for laptops and larger (992px and up)*/
@@ -421,5 +529,11 @@ main {
         /*Gallery*/
         #photos {
             column-count: 4;
+        }
+
+        /*Login*/
+        .wrapper {
+            width: 420px;
+            
         }
 }
