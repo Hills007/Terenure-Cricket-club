@@ -159,7 +159,39 @@ main {
     color: #000000;
     }
 
-/*Facilities*/
+    /*Map Section*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    color: rebeccapurple;
+}
+
+#contact {
+    flex: 1;
+    padding: 20px;
+    background: transparent;
+    width: 100%;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #efefef;
+}
+
+#contact p {
+    margin: 10px;
+    text-align: center;
+   
+}
+
+#map {
+    flex: 2;
+    height: 250px;
+    width: 100%;
+}
+
+
+
+/*Membership*/
     #facilities {
         width: 100%;
         padding: 30px 0;
@@ -245,11 +277,11 @@ main {
 
 /*Fixtures and Results section*/
 
-    .fr-box {
-        width: 80%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+.fr-box {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
         
     }
     
@@ -276,26 +308,7 @@ main {
         line-height: 0;
     }
 
-    /*Login page*/
-
     
-
-    /*footer*/
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    background-color: #ffffff;
-}
-
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: rebeccapurple;
-
-}
 
 /*Signup Page*/
 
@@ -361,7 +374,25 @@ input {
     background-color: #45a049;
 }
 
+/*footer*/
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #ffffff;
+}
+    
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: rebeccapurple;
+    
+}
 
+
+/*Gallery*/
 /*Media query for larg or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
     #photos {
@@ -430,7 +461,19 @@ input {
         font-size: 40px;
         font-style: italic;
     }
-    /*Facilities Section*/
+
+    /*Map*/
+
+    #contact {
+        flex: 1;
+        width: 20%;
+        }
+    #map {
+        width: 80%;
+    }
+        
+
+    /*Membership Section*/
     .facilities-box {
          margin: auto;
         }
@@ -477,7 +520,8 @@ input {
     }
        
          #hero {
-            height: 190vh;
+            height: 200vh;
+            object-fit: cover;
          }
     /*Fixtures and Results section*/
         .btn {
@@ -490,10 +534,6 @@ input {
         #photos {
             column-count: 4;
         }
-
-        /*Login*/
-        .wrapper {
-            width: 420px;
             
         }
 }
