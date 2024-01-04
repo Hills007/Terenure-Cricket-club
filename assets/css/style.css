@@ -328,7 +328,7 @@ main {
 }
 
 .wrapper {
-    width: 210px;
+    width: 250px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
@@ -534,18 +534,13 @@ main {
     /*Signup*/
 
     .wrapper {
-        width: 420px;
+        width: 500px;
         padding: 30px 40px;
     }
 
     .input-box input {
         font-size: 16px;
     } 
-
-    .input-box i {
-        right: 20px;
-        top: 50%;
-        }
 
     .wrapper .btn-s {
         font-size: 16px;
