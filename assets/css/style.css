@@ -381,28 +381,41 @@ main {
 
         /*Contact and Payment Options*/
     .container1 {
-        max-width: 1200px;
         margin: 0 auto;
-        padding: 20px;
+        padding: 10px;
         background: #efefef;
+        width: 100%;
         }
 
-    
     .row {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-}
+        justify-content: space-evenly;
+        
+        }
 
-    .section {
+    #section {
         flex: 1 0 100%;
-        margin-bottom: 10px;
-        padding: 20px;
+        margin-bottom: 5px;
+        padding: 10px 0;
         border: 20px;
         border-radius: 8px;
+        background: rgba(0, 150, 136, .5);
+        text-align: center;
+        }
+
+    #section h2 {
+        color: rebeccapurple;
+    }
+
+    #section p {
         color: #ffffff;
-        
-}
+    }
+
+    .bnk {
+        list-style-type: none;
+        color: #ffffff;
+    }
 
 
     /*Gallery page*/
@@ -415,7 +428,6 @@ main {
         line-height: 0;
     }
 
-    
 
 /*Signup Page*/
 .signup {
@@ -620,7 +632,7 @@ main {
         display: flex;
         }
 /*Contact and payment options*/
-    .section {
+    #section {
         flex: 1;
 }
 
