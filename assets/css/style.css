@@ -247,6 +247,7 @@ main {
     border-radius: 20px;
     background: rgba(0, 150, 136, .5);
     text-align: center;
+    width: 100%;
 }
 
 .image-fr {
@@ -307,7 +308,7 @@ main {
         margin-right: auto;
         margin-top: 0;
         font-size: 35px;
-        color: #009688;
+        color: rebeccapurple;
         font-weight: bold;
         position: relative;
         z-index: 1;
@@ -691,8 +692,7 @@ main {
     .hero-text h1 {
         margin-top: 20%;
     }
-
-
+    
     /*About Us Page*/
         
     .abt-box {
@@ -713,6 +713,10 @@ main {
         border-radius: 2px;
     }
 
+    #fix-res .title-text p {
+        width: 50%;
+        margin-left: 500px;
+        }
     /*Map*/
     #contact {
     width: 35%;
