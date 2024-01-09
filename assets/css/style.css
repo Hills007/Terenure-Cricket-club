@@ -92,7 +92,7 @@ main {
 
 /*Hero section*/
 #hero {
-    height: 100vh;
+    height: 600px;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.5), #009698), url("../images/Banner-image.jpg") no-repeat center center/cover;
     
@@ -318,6 +318,7 @@ main {
     #facilities .title-text p {
         font-size: 20px;
         background: rgba(0, 150, 136, .5);
+        margin-top: 10px;
         }
 
     .facilities-box {
@@ -540,6 +541,10 @@ main {
 @media  screen and (min-width: 768px) {
     /*Header*/
 
+    main {
+        margin-top: 0;
+    }
+
     nav {
         display: block;
         position: relative;
@@ -559,12 +564,16 @@ main {
         display: none;
     }
 
-    #logo {
+    #hero {
+        height: 800px;
+    }
+
+    #logo{
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
-     
+    
     /*Main Content*/
     main{
         margin-top: 75px;
@@ -572,22 +581,22 @@ main {
 
     .logo-img {
         width: 140px;
-        position: absolute;
-        top: 10%;
-        left: 4%;
+        position: relative;
+        top: 5%;
+        left: 5%;
     }
         
     .hero-text {
         text-align: center;
         color: #ffffff;
         padding-top: 180px;
-        ;
+        
     }
         
     .hero-text h1 {
         font-size: 80px;
         font-family: 'Kaushan Script', cursive;
-        margin-top: 20%;
+        margin-top: 5%;
         color: #ffffff;
     }
         
@@ -636,6 +645,9 @@ main {
         flex: 1;
 }
 
+    #hero {
+    height: 800px;
+        }
 
     /*Gallery */
     #photos {
@@ -668,8 +680,16 @@ main {
     }
     
     #hero {
-        height: 200vh;
-        object-fit: cover;
+        height: 2000px;
+    }
+
+    /*Main Content*/
+    main {
+        margin-top: 75px;
+        }
+        
+    .hero-text h1 {
+        margin-top: 20%;
     }
 
 
@@ -695,11 +715,11 @@ main {
 
     /*Map*/
     #contact {
-    width: 30%;
+    width: 35%;
     }
     
     #map {
-    width: 70%;
+    width: 65%;
     }
         
 
