@@ -111,10 +111,11 @@ main {
     padding-top: 180px;
     }
     
-.hero-text h1 {
+.hero-text h2 {
     font-size: 50px;
     font-family: 'Kaushan Script', cursive;
     color: #ffffff;
+    
     }
     
 .hero-text p {
@@ -706,17 +707,14 @@ main {
     }
     
     #hero {
-        height: 2000px;
+        height: 1250px;
     }
 
     /*Main Content*/
     main {
         margin-top: 75px;
         }
-        
-    .hero-text h1 {
-        margin-top: 20%;
-    }
+    
     
     /*About Us Page*/
         
