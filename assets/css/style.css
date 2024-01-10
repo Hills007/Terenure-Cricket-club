@@ -238,7 +238,7 @@ main {
     width: 100%;
     text-align: center;
     padding: 30px 0;
-    background: #efefef;
+    background: #ffffff;
     
 }
 
@@ -290,6 +290,31 @@ main {
     background-color: #2980b9;
 }
 
+/*Training Schedule*/
+.train {
+    background: #efefef;
+}
+
+.train .title-text p {
+    margin-top: 20px;
+}
+
+.tr-desc {
+    text-align: left;
+    margin-top: 20px;
+}
+
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 20px;
+ }
+
+ th, td {
+     border: 1px solid #ddd;
+     padding: 12px;
+     text-align: center;
+ }
 
 /*Membership*/
     #facilities {
@@ -715,7 +740,12 @@ main {
 
     #fix-res .title-text p {
         width: 50%;
-        margin-left: 500px;
+        margin-left: 300px;
+        }
+
+    .train .title-text p {
+        width: 50%;
+        margin-left: 300px;
         }
     /*Map*/
     #contact {
