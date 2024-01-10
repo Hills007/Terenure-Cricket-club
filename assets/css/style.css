@@ -196,7 +196,7 @@ main {
 /*About Us Page*/
 #about-us {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), #009698),
+    background: linear-gradient(rgba(0, 0, 0, 0.2), #009698),
         url("../images/Clubhouse.TCC.jpg") no-repeat center center/cover;
     
 }
@@ -320,7 +320,7 @@ main {
     #facilities {
         width: 100%;
         padding: 30px 0;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), #009698),
+        background: linear-gradient(rgba(0, 0, 0, 0.2), #009698),
             url("../images/Club-ground.jpg") no-repeat center center/cover;;
     }
 
@@ -462,10 +462,10 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), #009698),url("../images/Clubhouse.TCC.jpg") no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), #009698),url("../images/Clubhouse.TCC.jpg") no-repeat center center/cover;
 }
 
-.wrapper {
+.sign {
     width: 250px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
@@ -476,13 +476,13 @@ main {
     padding: 2px 4px;
 }
 
-.wrapper h1 {
+.sign h1 {
     font-size: 36px;
     text-align: center;
-    color: #ffffff;
+    color: rebeccapurple;
 }
 
-.wrapper .input-box {
+.sign .input-box {
     position: relative;
     width: 100%;
     height: 50px;
@@ -514,7 +514,7 @@ main {
     font-size: 20px;
 }
 
-.wrapper .btn-s {
+.sign .btn-s {
     width: 100%;
     height: 45px;
     background: #ffffff;
@@ -529,7 +529,7 @@ main {
     margin: 5px 0 5px
 }
 
-.wrapper .btn-s:hover {
+.sign .btn-s:hover {
     color: rebeccapurple;
 }
 
