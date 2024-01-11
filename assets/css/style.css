@@ -94,7 +94,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), #009698), url("../images/Banner-image.jpg") no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), #009698), url("../images/Hero-7.jpg") no-repeat center center/cover;
     
     }
 
@@ -703,8 +703,12 @@ main {
     }
     
     #hero {
-        height: 1250px;
-    }
+        height: 1000px;
+        }
+
+    .hero-text h2 {
+        margin-top: 80px;
+        }
 
     /*Main Content*/
     main {
@@ -741,11 +745,6 @@ main {
     }
 
     #fix-res .title-text p {
-        width: 50%;
-        margin-left: 300px;
-        }
-
-    .train .title-text p {
         width: 50%;
         margin-left: 300px;
         }
