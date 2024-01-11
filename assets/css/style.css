@@ -202,7 +202,7 @@ main {
     
 }
 
-.abt-box .abt h1 {
+.abt-box .abt h3 {
     text-align: center;
     font-family: 'Kaushan Script', cursive;
     padding: 20px;
@@ -422,7 +422,7 @@ main {
         
         }
 
-    #section {
+    .section {
         flex: 1 0 100%;
         margin-bottom: 5px;
         padding: 10px 0;
@@ -432,11 +432,11 @@ main {
         text-align: center;
         }
 
-    #section h2 {
+    .section h2 {
         color: rebeccapurple;
     }
 
-    #section p {
+    .section p {
         color: #ffffff;
     }
 
@@ -471,7 +471,7 @@ main {
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
-    box-shadow: 0 0 10 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     color: #ffffff;
     border-radius: 10px;
     padding: 2px 4px;
@@ -668,13 +668,9 @@ main {
         display: flex;
         }
 /*Contact and payment options*/
-    #section {
+    .section {
         flex: 1;
 }
-
-    #hero {
-    height: 800px;
-        }
 
     /*Gallery */
     #photos {
@@ -683,7 +679,7 @@ main {
 
     /*Signup*/
 
-    .wrapper {
+    .sign {
         width: 500px;
         padding: 30px 40px;
     }
@@ -692,7 +688,7 @@ main {
         font-size: 16px;
     } 
 
-    .wrapper .btn-s {
+    .sign .btn-s {
         font-size: 16px;
         margin: 20px 0 15px;
     }
@@ -715,6 +711,14 @@ main {
         margin-top: 75px;
         }
     
+    /*Map*/
+    #contact {
+         width: 35%;
+        }
+        
+    #map {
+        width: 65%;
+        }
     
     /*About Us Page*/
         
@@ -745,16 +749,7 @@ main {
         width: 50%;
         margin-left: 300px;
         }
-    /*Map*/
-    #contact {
-    width: 35%;
-    }
-    
-    #map {
-    width: 65%;
-    }
-        
-
+   
 
     }
 }
