@@ -107,16 +107,36 @@ Users of the website will be able to register on the web page and gather informa
 
            a. The membership page gives details about the costs for differnt players of different age groups. It has four images that details membership fee for Family, Adult Male, Youth & Student and Female members. Below the membership section are details of different members to contact incase an individual wants to pay their membership fee or also have the option of paying the fee directly in to the bank. Bank details are mentiond to the right of the contact section. I used the flex property for the images and also for the table.
            
-<img src="assets/images/Readme.Membership.jpg" width="100%">
+<img src="assets/images/Readme-Member.jpg" width="100%">
 
 <img src="assets/images/Readme.pay.jpg" width="100%">
 
 
 
 ## • Gallery:
-           a. The gallery page feature images from different mambers and different teams of Terenure Cricket club.
+           a. The gallery page feature images from different members and different teams of Terenure Cricket club.
            
-<img src="">
+<img src="assets/images/Readme-Gallery.jpg" width="100%">
 
 
 ## • Signup:
+
+           a. The Signup page features a registration form where new and old members can register for the upcoming season. The form contains an input box for email address, adult name, student & youth name and date of birth of the member.
+
+<img src="assets/images/Readme-Signup.jpg" width="100%">
+
+
+
+## • Future Features:
+
+            a. Future features includes a news page where all the club events, articles on other websites, fundraising and social events would be advertised. It could also act as a newsletter to all the members that have registered.
+
+            b. The signup page can also have a checkbox option of subscribe to newsletters, where users can opt to recieve or not recieve newsletters.
+
+            c. Paying online for membership fees is also another option that the user could avail of in the future.
+
+
+            
+## • Testing: 
+
+            
