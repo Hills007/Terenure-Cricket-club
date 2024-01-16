@@ -4,7 +4,7 @@
 Terenure cricket club website is designed to target players of all ages between 7 & upwards, who are looking to play cricket at all levels from having fun to being competitive members of the club.
 Users of the website will be able to register on the web page and gather information regarding membership fees and different options of payments. They will also have access to view any Live matches for all the teams or check the upcoming fixtures and previous results. They will be able to view all images posted and have access to all social media platforms. They will also have access to all the contacts needed to pay their yearly subscriptions.
 
-<img src="assets/images/Responsive design.jpg" width="100%">
+<img src="assets/images/Responsive-Design.jpg" width="100%">
 
 ## • User Stories:
 
@@ -60,16 +60,29 @@ Users of the website will be able to register on the web page and gather informa
 
            b. On top of the Hero image is a H1 heading with a welcome noe and paragraph underneath it mentioning new season registration is now open.
 
-           c. Underneath the paragraph is a button with a hover tiltle Live matches. When clicked the button takes the user to the cricket leinster website where all the live matches are featured for the day.
+           c. Underneath the paragraph is a button with a hover effect, tiltled, Live matches. When clicked, the button takes the user to the cricket leinster website where all the live matches are featured for the day.
            
 <img src="assets/images/Readme-Home.jpg" width="100%">
 
 
-## • Contact & Map:
+### • Contact & Map:
 
-           a. At the bottom of the home page , I have created the conatct section with name and details of a contact person and the club address.
+           a. At the bottom of the home page , I have created the conatct section using flex property with name and details of a contact person and the club address to the left of the screen
 
-           b. There is a map next to the contact section pin pointing the location of the club on the map.
+           b. There is a map to the right of the contact section pin pointing the location of the club on the map. I also used the flex property here
 
-<img src= "assets/images/Readme-map.jpg" width="100%">
+<img src= "assets/images/Readme-Map.jpg" width="100%">
+
+## • About Us:
+           
+           a. About us page features a black & white image of the club's previous members to the right of the screen and a brief description of the club history and community values to the left of the screen using flex property. This section has a backgroung image of Terenure crickect club ground. 
+
+ <img src="assets/images/Readme-About.jpg" width="100%">
+
+### • Fixtures & Results:
+
+           a. Fixtures and results section lies underneath the about us section and features two images side by side with buttons on top. Ai Image on the left has a player batting with a Fixtures button on top while the AI image on the right has a player bowling with a Results button on top. The buttons, when clicked takes the user to the cricket leinster website where all the fixtures and results of Terenure cricket club are displayed.
+
+<img src="assets/images/Readme-Fix&Res.jpg" width="100%">
+
 

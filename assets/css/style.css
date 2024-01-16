@@ -288,12 +288,13 @@ main {
 }
 
 .button-fr a:hover {
-    background-color: #2980b9;
+    background-color: rebeccapurple;
 }
 
 /*Training Schedule*/
 .train {
     background: #efefef;
+    border-radius: 12px;
 }
 
 .train .title-text p {
@@ -303,12 +304,18 @@ main {
 .tr-desc {
     text-align: left;
     margin-top: 20px;
+    background: rgba(0, 150, 136, .5);
+    color: #ffffff;
+    border-radius: 7px;
 }
 
  table {
      width: 100%;
      border-collapse: collapse;
      margin-top: 20px;
+     background: rgba(0, 150, 136, .5);
+     color: #ffffff;
+     border-radius: 7px;
  }
 
  th, td {
@@ -376,9 +383,9 @@ main {
         top: 0;
         border-radius: 7px;
         cursor: pointer;
-        background: linear-gradient(rgba(0,0,0,0.5), #009688);
-        margin-left: 30px;
+        background: linear-gradient(rgba(0,0,0,0.2), #009688);
         opacity: 0.1;
+        margin-left: 30px;
         transition: 1s;
         }
     .single-service:hover .overlay {
@@ -390,7 +397,7 @@ main {
         position: absolute;
         bottom: 20%;
         left: 60%;
-        background: rgba(0, 150, 136, .5);
+        background: rgba(0, 150, 136, .1);
         border-radius: 20px;
         transform: translate(-50%);
         
