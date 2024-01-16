@@ -139,4 +139,15 @@ Users of the website will be able to register on the web page and gather informa
             
 ## • Testing: 
 
-            
+             a. After conducting multiple tests, I can confirm that the website works perfectly as intended. All the color schemes blend well and the images align perfectly. All the buttons and social media links works well when clicked. The website is simply laid out for new users. The website gives all the relative information that a new or current user will need.
+             
+             b. I have conducted tests on all screen sizes fron mobile to talet to laptop and desktop and can confirm that every aspect of the website perfors perfectly. The images align nicely on all screen sizes and all the links are operational.
+
+             c. I found a bug with the instagram link in the footer section. When clicked , it was giving a broken link error. All the pages links for instagram are now fixed and operational.
+
+             d. I found a bug on the signup page with the date of birth input box. Input type value was changed from text to date and now that link works perfectly.
+             
+             e. The found that the Hero image on the home page was not aligning well on bigger screen sizes. I fixed the issue by resizing the image and uploading it again and that solved the problem. Now it displays nicely on all screen sizes.
+             
+
+## 
