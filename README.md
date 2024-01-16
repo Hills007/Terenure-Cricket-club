@@ -54,6 +54,8 @@ Users of the website will be able to register on the web page and gather informa
 
 <img src="assets/images/Readme-Nav.jpg" width="100%">
 
+
+
 ## • Home Page:
 
            a. Featured on the home page is a Hero image of one of the best palyers in the club while playing a drive. The image has a green gradient overlay on top.
@@ -65,7 +67,7 @@ Users of the website will be able to register on the web page and gather informa
 <img src="assets/images/Readme-Home.jpg" width="100%">
 
 
-### • Contact & Map:
+###  Contact & Map:
 
            a. At the bottom of the home page , I have created the conatct section using flex property with name and details of a contact person and the club address to the left of the screen
 
@@ -73,16 +75,48 @@ Users of the website will be able to register on the web page and gather informa
 
 <img src= "assets/images/Readme-Map.jpg" width="100%">
 
+###  Footer:
+           a. At the bootom of the page is the footer section where the user can click on the four different icons that will take them to Terenure Cricket clubs social media platforms i.e, Facebook, Instagram, Twitter and Youtube.
+
+<img src="assets/images/Readme-Footer.jpg" width="100%">
+
+
+
 ## • About Us:
            
            a. About us page features a black & white image of the club's previous members to the right of the screen and a brief description of the club history and community values to the left of the screen using flex property. This section has a backgroung image of Terenure crickect club ground. 
 
  <img src="assets/images/Readme-About.jpg" width="100%">
 
-### • Fixtures & Results:
+###  Fixtures & Results:
 
            a. Fixtures and results section lies underneath the about us section and features two images side by side with buttons on top. Ai Image on the left has a player batting with a Fixtures button on top while the AI image on the right has a player bowling with a Results button on top. The buttons, when clicked takes the user to the cricket leinster website where all the fixtures and results of Terenure cricket club are displayed.
 
 <img src="assets/images/Readme-Fix&Res.jpg" width="100%">
 
+###  Training:
 
+           a. Below the fixtures and results section is the training section. It feature the facilities that are on offer in the club in terms of coaching and equipment and also contains a table with training days and hours for all different age groups.
+
+
+<img src="assets/images/Readme.Training.jpg" width="100%">
+
+
+
+## • Membership:
+
+           a. The membership page gives details about the costs for differnt players of different age groups. It has four images that details membership fee for Family, Adult Male, Youth & Student and Female members. Below the membership section are details of different members to contact incase an individual wants to pay their membership fee or also have the option of paying the fee directly in to the bank. Bank details are mentiond to the right of the contact section. I used the flex property for the images and also for the table.
+           
+<img src="assets/images/Readme.Membership.jpg" width="100%">
+
+<img src="assets/images/Readme.pay.jpg" width="100%">
+
+
+
+## • Gallery:
+           a. The gallery page feature images from different mambers and different teams of Terenure Cricket club.
+           
+<img src="">
+
+
+## • Signup:

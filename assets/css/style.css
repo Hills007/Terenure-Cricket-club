@@ -302,11 +302,18 @@ main {
 }
 
 .tr-desc {
-    text-align: left;
-    margin-top: 20px;
-    background: rgba(0, 150, 136, .5);
-    color: #ffffff;
-    border-radius: 7px;
+background: rgba(0, 150, 136, .5);
+text-align: left;
+margin-top: 20px;
+border-radius: 7px;
+}
+
+.tr-desc span {
+color: #ffffff;
+}
+
+.tr-desc li {
+    color: rebeccapurple;
 }
 
  table {
