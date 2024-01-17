@@ -125,7 +125,7 @@ Users of the website will be able to register on the web page and gather informa
 
             c. Paying online for membership fees is also another option that the user could avail of in the future.
 
-## • Testing
+## • Testing & Bugs
 
              a. After conducting multiple tests, I can confirm that the website works perfectly as intended. All the color schemes blend well and the images align perfectly. All the buttons and social media links works well when clicked. The website is simply laid out for new users. The website gives all the relative information that a new or current user will need.
              
@@ -141,20 +141,27 @@ Users of the website will be able to register on the web page and gather informa
 
 ### HTML
 
-             No errors were returned when passing through the official [W3c Validator](<https://validator.w3.org/>)
+             No errors were returned when passing through the official W3c Validator
+[W3c Validator](<https://validator.w3.org/>)
 
 ### CSS
 
-             No errors were found when passing through the official [Jigsaw validator](<https://jigsaw.w3.org/css-validator/>)
+             No errors were found when passing through the official jigsaw validator
+[Jigsaw validator](<https://jigsaw.w3.org/css-validator/>)
 
 ### Lighthouse
 
-             After resizing Hero image, The Dev lighthouse performance improved substacially.
+             After resizing Hero image, The Dev lighthouse performance improved substacially. The results are mentioned in the image below.
 
 <img src=""
 
 ## • Unfixed Bugs:
 
+            a. Couldn't compress images on the membership page more to help with loading time. Lighthouse performance was showing at 84% for the membership page due to images sizes but doesn't effect the performance a great deal
+            
+            b. Couidn't remove the placeholder icon on the date of birth input box.
+
+            
 
 
 ## • Deployment:
@@ -166,4 +173,26 @@ Users of the website will be able to register on the web page and gather informa
             
             c.Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-            The live link can be found here <https://hills007.github.io/Terenure-Cricket-club/>
+            The live link can be found below 
+<https://hills007.github.io/Terenure-Cricket-club/>
+
+
+## • Credits:
+
+            a. Majority of the project was created following the love running project code and css.
+
+            b. Some ideas and code were taken from a youtube tutorial videos mentioned below.
+<https://www.youtube.com/watch?v=lBfshkPlMW8&t=433s>
+<https://www.youtube.com/watch?v=hlwlM4a5rxg&t=548s>
+
+            c. W3school was also very helpful in understanding code, elements and attributes.
+<https://www.w3schools.com/>
+
+
+## Media:
+
+            The photos used on the home, About us, Memebership and Gallery page are taken from Terenure cricket club Facebook page. Link is mentioned below
+<https://www.facebook.com/TerenureCricketClub/>
+        
+            The images used for the fixtures and results section on the About us page were taken from Getty images on google. Link is mentioned below.
+<https://www.gettyimages.ie/photos/cricket-batting>
