@@ -94,9 +94,8 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), #009698), url("../images/Hero-7.jpg") no-repeat center center/cover;
-    
-    }
+    background: linear-gradient(rgba(0, 0, 0, 0.2), #009698), url("../images/Hero-1.jpg") no-repeat center center/cover;
+     }
 
 .logo-img {
     width: 70px;
@@ -603,9 +602,7 @@ color: #ffffff;
         display: none;
     }
 
-    #hero {
-        height: 800px;
-    }
+
 
     #logo{
         font-size: 280%;
