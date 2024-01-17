@@ -610,6 +610,10 @@ hr {
         display: none;
     }
 
+    #hero {
+        height: 800px;
+    }
+
     #logo {
         font-size: 280%;
         line-height: 75px;
