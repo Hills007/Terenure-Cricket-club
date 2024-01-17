@@ -137,6 +137,8 @@ Users of the website will be able to register on the web page and gather informa
 
              e. I found that the Hero image on the home page was not aligning well on bigger screen sizes. I fixed the issue by resizing the image and uploading it again and that solved the problem. Now it displays nicely on all screen sizes. It also loads faster and have better performance on LPC.
 
+             f. I found that the map was not responding well on all screens. I gave it a width and height of 100% inline and styled it in css which fixed the problem
+
 ## • Validator Testing
 
 ### HTML
@@ -153,7 +155,7 @@ Users of the website will be able to register on the web page and gather informa
 
 ### Accessibility
 
-             After resizing Hero image, The Dev tools lighthouse performance improved substacially. The results are mentioned in the image below.
+             After resizing Hero image, The Dev tools lighthouse performance accessability score improved substacially. The results are mentioned in the image below.
 
 <img src="assets\images\Accessability.jpg" width="100%">
 

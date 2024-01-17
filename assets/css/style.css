@@ -8,7 +8,7 @@
 
 /*General body styles*/
 body {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 
@@ -608,10 +608,6 @@ hr {
 
     .nav-toggle-label {
         display: none;
-    }
-
-    # hero {
-        height: 800px;
     }
 
     #logo {
