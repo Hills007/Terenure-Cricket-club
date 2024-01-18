@@ -125,6 +125,34 @@ Users of the website will be able to register on the web page and gather informa
 
             c. Paying online for membership fees is also another option that the user could avail of in the future.
 
+            
+## • Typography and color scheme:
+
+            a. For this site's font, I choose the Kaushan, cursive and the Lato, sans serif font. I downloaded the fonts from google fonts and inserted them in to the Html and linked it with css.
+            
+            b. The colors i choose to use are the similar to the club jersey, i.e, Green purple and white. Purple for the headings, green for the text background and white for text. I even used the green and purple for some hover effects.
+            
+
+## • Wireframes:
+
+            a. I created the wireframes myself before I started to build the website to give me an idea of the requirements and layouts of the website. I took a more conventional approch by drawing the wireframes by hand. 
+            
+   ### Home Page:
+<img src="assets/images/Home-page.jpg" width="50%">
+
+### About us Page:
+<img src="assets/images/Aboutus-page.jpg" width="50%">
+
+### Membership Page:
+<img src="assets/images/Membership-page.jpg" width="50%">
+
+### Gallery Page:
+<img src="assets/images/Gallery-page.jpg" width="50%">
+
+### Signup Page:
+<img src="assets/images/Signup-page.jpg" width="50%">
+
+
 ## • Testing & Bugs
 
              a. After conducting multiple tests, I can confirm that the website works perfectly as intended. All the color schemes blend well and the images align perfectly. All the buttons and social media links works well when clicked. The website is simply laid out for new users. The website gives all the relative information that a new or current user will need.
@@ -138,6 +166,9 @@ Users of the website will be able to register on the web page and gather informa
              e. I found that the Hero image on the home page was not aligning well on bigger screen sizes. I fixed the issue by resizing the image and uploading it again and that solved the problem. Now it displays nicely on all screen sizes. It also loads faster and have better performance on LPC.
 
              f. I found that the map was not responding well on all screens. I gave it a width and height of 100% inline and styled it in css which fixed the problem
+             
+             g. I tested the site on all different browsers i.e, Google chrome, firefox and internet explorer and it works on all different browsers efficiently.
+             
 
 ## • Validator Testing
 
