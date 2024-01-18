@@ -9,7 +9,7 @@ Users of the website will be able to register on the web page and gather informa
 
 ## • User Stories
 
-    ### First time Visitor:
+   ### First time Visitor:
 
            a. As a first time visitor to the website, I want to  know more about the club and its history.
 
@@ -21,7 +21,7 @@ Users of the website will be able to register on the web page and gather informa
 
            e. I want to know how trusted and known they are by locating their social media platforms to see their following and club ratings.
 
-    ### Returning Visitor:
+   ### Returning Visitor:
 
            a. As a Returning visitor, I want to find information about the team's performance in the past year.
 
@@ -31,7 +31,7 @@ Users of the website will be able to register on the web page and gather informa
 
            d. I want to know if there were any improvements made in the facilities of the club, i.e, Pitch replacements, nets, bowling machine and coaching etc.
 
-    ### Frequent User:
+   ### Frequent User:
 
            a. As a frequent user, I would like to be able to recieve newsletter with any major updates or changes to the website or organisation via email or social media.
 
